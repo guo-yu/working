@@ -1,0 +1,31 @@
+{
+  "name": "working",
+  "version": "0.1.0",
+  "description": "a simple workflow running tool based on npm script",
+  "main": "dist/working.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/turingou/working.git"
+  },
+  "keywords": [
+    "working",
+    "script",
+    "npm",
+    "workflow"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/working/issues"
+  },
+  "homepage": "https://github.com/turingou/working#readme",
+  "devDependencies": {
+    "babel": "^5.8.20"
+  },
+  "dependencies": {
+    "exeq": "^2.2.0"
+  }
+}
